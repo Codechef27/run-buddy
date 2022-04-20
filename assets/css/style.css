@@ -51,19 +51,22 @@ header a {
 
 }
 
-header nav {
-
-  
+header nav ul {
 
     margin: 7px 0;
 
+    display: flex;
+
+    flex-wrap: wrap;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    list-style: none;
+
 }
 
-header nav ul li {
-
-    display: inline;
-
-}
 
 header nav ul li a {
 
@@ -71,7 +74,7 @@ header nav ul li a {
 
     font-weight: lighter;
 
-    font-size: 22px;
+    font-size: 1.55vw;
 
 }
 
